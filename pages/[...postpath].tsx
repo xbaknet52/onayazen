@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://onayaz.com/en/' + encodeURI(path as string)
+					'https://onayaz.com/' + encodeURI(path as string)
 				}`,
 			},
 		};
